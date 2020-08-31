@@ -1,0 +1,1 @@
+[{"id":"4388e2b8.c0d08c","type":"function","z":"ba057527.22f408","name":"","func":"msg.payload={'Temperature_val':global.get(\"temperature\"),'Humidity_val':global.get(\"humidity\"),'LDR_val':global.get(\"ldr\")}\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":450,"y":520,"wires":[["578a2a03.083574"]]}]
