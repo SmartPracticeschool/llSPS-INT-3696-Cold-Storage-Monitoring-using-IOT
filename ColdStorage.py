@@ -65,7 +65,7 @@ while True:
                 success = deviceCli.publishEvent("Weather", "json", data, qos=0, on_publish=myOnPublishCallback)
                 if not success:
                         print("Not connected to IoTF")
-                time.sleep(5)
+                time.sleep(10)
 
                 deviceCli.commandCallback = myCommandCallback
         
@@ -86,7 +86,7 @@ while True:
                 success = deviceCli.publishEvent("Weather", "json", data, qos=0, on_publish=myOnPublishCallback)
                 if not success:
                         print("Not connected to IoTF")
-                time.sleep(5)
+                time.sleep(10)
 
                 deviceCli.commandCallback = myCommandCallback
 
